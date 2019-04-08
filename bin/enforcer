@@ -1,0 +1,4 @@
+#!/usr/bin/sh python
+from upside.enforcer.app import enforcer
+
+enforcer()

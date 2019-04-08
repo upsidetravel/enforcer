@@ -1,0 +1,3 @@
+import os
+
+CHUNK_TERMINATION_VALUE = os.environ.get('CHUNK_TERMINATION_VALUE', 'NULL')
