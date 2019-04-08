@@ -10,15 +10,15 @@ This script will read your secret value from the clipboard automagically
 # Usage
 ```
 pip install -r requirements.txt
-python app.py upload --env(dev, stg, prod, cent) --region=<aws_region> --fq_secret_key=</secret_directory/secret_name>
 python app.py
+python app.py upload --env(dev, stg, prod, cent) --region=<aws_region> --fq_secret_key=</secret_directory/secret_name> --secret_value=<secret_value>
 ```
 
 ### Default Usage
-[![enforcer-default](https://asciinema.org/a/UvxoXKidur4LxrpoN12PImRel.svg)](https://asciinema.org/a/UvxoXKidur4LxrpoN12PImRel)
+[![enforcer-default](https://asciinema.org/a/NiiwxdTfU7tAlktB3TFYw5rIx.svg)](https://asciinema.org/a/NiiwxdTfU7tAlktB3TFYw5rIx)
 
 ### Shortcut Usage
-[![enforcer-shorcut](https://asciinema.org/a/epgZW2j58ukhWUGoR3r8meMOW.svg)](https://asciinema.org/a/epgZW2j58ukhWUGoR3r8meMOW)
+[![enforcer-shorcut](https://asciinema.org/a/W4VjnodWKpO6wDt28QJj3gLVD.svg)](https://asciinema.org/a/W4VjnodWKpO6wDt28QJj3gLVD)
 
 # Pyperclip dependency
 *Not Implemented Error*
