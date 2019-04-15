@@ -1,4 +1,5 @@
 # Enforcer: AWS SSM Parameter Store Management CLI
+[![image](https://img.shields.io/pypi/v/enforcer.svg)](https://pypi.org/project/enforcer)
 -------------------
 
 # Docs
@@ -8,6 +9,10 @@ This script will read your secret value from the clipboard automagically
 - [Chunking logic deep dive](CHUNKS.md)
 
 # Usage
+`pip install enforcer`
+
+or
+
 ```
 pip install -r requirements.txt
 python app.py
