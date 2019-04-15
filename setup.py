@@ -58,7 +58,7 @@ try:
 
     DESCRIPTION = pypandoc.convert('README.md', 'rst')
 except (IOError, ImportError):
-    DESCRIPTION = "Upside Pricing Python Library"
+    DESCRIPTION = "AWS SSM Parameter Store Management CLI"
 
 DEPENDENCY_LINKS = []
 
