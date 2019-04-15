@@ -64,7 +64,7 @@ DEPENDENCY_LINKS = []
 
 setup(
     name='enforcer',
-    version="1.0.0",
+    version="1.0.1",
     url='https://github.com/PotomacInnovation/enforcer',
     license='Upside',
     author="@PotomacInnovation/owners-sre",
